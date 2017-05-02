@@ -975,6 +975,7 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu{
     border:2px solid #EDEDED;
     position: relative;
     padding:30px 30px;
+    padding-top: 15px;
 
 }
 .service-item .service-icon{
