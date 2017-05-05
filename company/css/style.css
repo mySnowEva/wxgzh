@@ -14,28 +14,21 @@ input[type="button"]{
 }
 
 h1,h2,h3,h4,h5,h6{
-	padding: 0 0;
-	margin: 0 0;
-	color: #FFFFFF;
-	font-size: 20px;
+	padding:0 0;
+	margin:0 0;
 }
 p{
-	margin-top: 20px;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 20px;
-	font-size: 18px;
-	color: #000000;
+	padding:0 0;
+	margin:0 0;
 }
 ul{
 	padding:0 0;
 	margin:0 0;	
 }
 body{
-	padding: 0 0;
-	margin: 0 0;
+	padding:0 0;
+	margin:0 0; 
 	font-family: 'Open Sans', sans-serif;
-	color: #FFFFFF;
 }
 .header-top {
     margin-top: 1em;
@@ -507,19 +500,16 @@ ul.callbacks_tabs.callbacks1_tabs {
   margin-top: 3em;
 }
 .team {
-	padding-top: 4em;
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 0em;
-	position: relative;
-	background-color: #5895DB;
-	text-align: center;
-	color: #FFFFFF;
+  padding: 4em 0;
+  position:relative;
+  background:#1F527D;
+  text-align: center;
 }
 .team h3 {
-    font-size: 3.5em;
-     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: #fff;
+	font-size: 3.5em;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color: #fff;
+	padding-top: 30px;
 }
 .ch-grid {
 	margin: 4em 0;
@@ -558,7 +548,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 	-o-perspective: 900px;
 	-ms-perspective: 900px;
 	perspective: 900px;
-	padding-top: 0px;
 }
 .ch-info{
 	position: absolute;
@@ -569,8 +558,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 	-o-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	margin-top: 0px;
-	padding-top: 0px;
 }
 .ch-info > div {
 	display: block;
@@ -605,33 +592,33 @@ ul.callbacks_tabs.callbacks1_tabs {
 	opacity: 0;
 }
 .ch-img-1 { 
-	  background: url(../company/images/t1.png)no-repeat;
+	  background: url(../images/t1.jpg)no-repeat;
 	z-index: 12;
 }
 
 .ch-img-2 { 
-	  background: url(../company/images/t2.png)no-repeat;
+	  background: url(../images/t2.jpg)no-repeat;
 	z-index: 11;
-co}
+}
 
 .ch-img-3 { 
-	  background: url(../company/images/t3.png)no-repeat;
+	  background: url(../images/t3.jpg)no-repeat;
 	z-index: 10;
 }
 .ch-img-4 { 
-	  background: url(../company/images/t4.png)no-repeat;
+	  background: url(../images/t4.jpg)no-repeat;
 	z-index: 10;
 }
 .ch-info h4 {
 	color: #fff;
-	font-size: 2em;
+	font-size: 1.8em;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	margin: 0 15px;
-	padding-top: 61px;
+	padding-top: 40px;
 	padding-right: 0;
 	padding-left: 0;
 	padding-bottom: 0;
-	height: 110px;
+	height: 90px;
 	text-shadow: 0 0 1px #fff,
  }
 .ch-info p {
@@ -639,7 +626,7 @@ co}
 	padding: 10px 5px;
 	font-style: italic;
 	margin: 0 30px;
-	font-size: 13px;
+	font-size: 12px;
 	border-top: 1px solid rgba(255,255,255,0.5);
 }
 .ch-info p a {
@@ -655,9 +642,7 @@ co}
 }
 
 .ch-info p a:hover {
-	color: #fff;
-	font-size: 1em;
-	text-align: right;
+    color: #fff;
 }
 
 .ch-item:hover .ch-info-front {
@@ -667,7 +652,7 @@ co}
 	-ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
 	transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
 	opacity: 0;
-	padding-top: 0px;
+	margin-top: 10px;
 }
 
 .ch-item:hover .ch-info-back {
@@ -1632,88 +1617,119 @@ h2.typoh2{
 .about h2, .about-section h2, .services h2, .gallery-info h2, h2.short, .contact h2 {
     font-size: 2.2em;
 }
-
-.leading-content .head-title h2{
-    /*color:#fff;*/
+.student h3, .new-course h3, .testimonial h3, .why-choose h3, .features h3, .service h3, .team h3 {
+    font-size: 2em;
 }
-.leading-content .head-title p{
-    font-size:18px;
-    /*color:#fff;*/
+.student, .new-course, .testimonial, .about-section, .why-choose, .team, .services, .features, .service, .gallery-top, .typography, .contact {
+    padding: 1em 0;
 }
-.home-one  .bs-slider .item .container{
-    padding-top:200px;
+.student-grids, .new-course-grids1, .new-course-grids, .choose-grids, .ch-grid, .services-grids, .features-grids, .servic-grids, .gallery-grids-top, .google-map iframe {
+    margin-top: 1em;
 }
-.head-title h2{
-	font-weight: 400;
-	font-size: 40px;
-	margin-bottom: 0px;
-	padding-top: 60px;
-	margin-left: 20px;
+.student-grid {
+    padding: 0;
 }
-.head-title p{
-    font-weight: 400;
-    font-size:16px;
-    padding-left: 25px;
-    padding-right: 25px;
-
+.new-course-grid {
+    padding: 0;
 }
-.m-top-40 {
-	margin-top: 25px;
+.course-info {
+    padding: .5em;
+    left: 0.5%;
+    width: 79%;
 }
-.m-top-30 {
-	margin-top: 15px;
+.testimonial-grid {
+    padding: 0;
 }
-.text-white{
-	color: #fff;
-	margin-top: 20px;		
+.testimonial-grid-right {
+    padding: 0;
 }
-.m-top-50 {
-    margin-top: 50px;
+.Works-grid {
+    width: 100%;
+    padding: 0;
 }
-/*
-Section
-*/
-.sections {
-	padding-top: 0px;
-	padding-bottom: 60px;
+.Works-grid:nth-child(2) {
+    margin: 1em 0;
 }
-.sections2 {
-	padding-top: 50px;
-	padding-bottom: 50px;
+.social-icons a i{
+	width: 40px;
+	height: 40px;
+	background: url(../images/img-sprite.png) no-repeat 0px 0px;
+	display: inline-block;
+	background-size: 400px;
+	margin: 0 2px;
 }
-.sections3 {
-    padding-top:80px;
-    padding-bottom: 80px;
+.social-icons a i.icon1{
+	background-position:0px 0px;
 }
-.sections4 {
-    padding-top:70px;
-    padding-bottom: 70px;
+.social-icons a i.icon2{
+	background-position:-40px 0px;
 }
-.sections.footer {
-    padding-bottom: 80px;
+.social-icons a i.icon3{
+	background-position:-80px 0px;
 }
-section .subtitle h5 {
-    margin-top: 10px;
-    font-size: 1.3rem;
+.social-icons a i.icon4{
+	background-position:-120px 0px;
 }
-.parallax-section {
-    max-width: 100%;
-    color: #ffffff;
+.footer-section {
+    padding: 1em 0;
 }
-section .title-half h2 {
-    font-size: 3rem;
-    line-height: 4rem;
-    font-weight: 300;
-    margin-bottom: 1.4rem;
+.banr {
+    background: url(../images/banner2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+	padding:0;
+	min-height: 70px !important;
 }
-section .subtitle-half h5 {
-    font-weight: 100;
-    font-size: 17px;
+.about-info {
+    margin: 1em 0;
 }
-ul{
-    margin:0;
-    padding:0;
-    list-style:none;
+.about-img {
+    width: 100%;
+    padding: 0;
 }
-
+.about-info p {
+    padding: .5em 0;
+}
+.about-img:nth-child(2) {
+    margin: 1em 0;
+}
+.choose-grid {
+    width: 100%;
+    padding: 0;
+}
+.choose-grid:nth-child(2) {
+    margin: 1em 0;
+}
+.ch-grid {
+    margin: 0em 0;
+}
+.services-grid {
+    padding: 0;
+}
+.feature-grid {
+    width: 100%;
+    padding: 0;
+}
+.feature-grid:nth-child(2) {
+    margin-top: 1em;
+}
+.service-grid {
+    width: 100%;
+	padding:0;
+}
+.service-grid1 {
+    width: 100%;
+	margin-top:1em;
+}
+.gallery-grid {
+    width: 100%;
+	padding: 0;
+	margin-bottom: 1em;
+}
+.contact-grid {
+    width: 100%;
+    padding: 0;
+}
+.contact-form input[type="submit"] {
+    width: 27%;
+}
 }
