@@ -3863,3 +3863,114 @@ Contacts us page
 .text-center-one{
     text-align-last: center;
 }
+
+ <div class="col-md-4 col-sm-6">
+                                <div class="service-item m-top-65">
+                                    <div class="service-icon">
+                                        <img src="assets/images/service6.png" alt="" />
+                                    </div>
+                                    <h5 class="text-info m-top-50">数据分析</h5>
+                                    <p class="text-black m-top-20">咨询、报名、学员等分类数据实时统计，通过柱状图、折线图、漏斗图、条形图、环形图、饼状图等直观展示</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="service-item m-top-65">
+                                    <div class="service-icon">
+                                        <img src="assets/images/service2.png" alt="">
+                                    </div>
+                                    <h5 class="text-info m-top-50">公众号管理</h5>
+                                    <p class="text-black m-top-20">微官网搭建，活动通知、学员老师聊天沟通等帮助机构轻松管理公众号，打造自己的品牌，让客户留在您手里 </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="service-item m-top-65">
+                                    <div class="service-icon">
+                                        <img src="assets/images/service5.png" alt="" />
+                                    </div>
+                                    <h5 class="text-info m-top-50">家校互通</h5>
+                                    <p class="text-black m-top-20">通过微信端，家长清楚查询到自已的排课表，学习反馈，课销情况，学费扣减，出勤记录，学校公告等</p>
+                                </div>
+                            </div>
+
+
+            <!--Clients section-->
+            <section id="clients" class="clients">
+                <div class="transit-01">
+                    <img src="assets/images/support-img-01.png" alt="" />
+                </div>
+                <div class="transit-02">
+                    <img src="assets/images/calenter-02.png" alt="" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                          <div class="client-love sections3">
+                              <h2 class="text-white">&nbsp;</h2>
+                            <h2 class="text-white">&nbsp;数据分析</h2>
+                            <p class="text-muted m-top-30">数据及时更新，能够更加及时的知道学校的现有发展状况</p>
+                          </div>
+                        </div>
+                        <div class="col-md-6 col-md-offset-1">
+                            <div class="client-testimonial text-center m-top-100">
+
+                                <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <div class="client-img">
+                                                <img class="img-circle" src="assets/images/client-img-01.jpg" alt="" />
+                                            </div>
+                                            <div class="client-test-content">
+                                                <div class="reviews_item_icon pull-left text-left">“</div>
+                                                <p class="m-top-30 text-muted">学生来源及趋势统计，学生类别统计，咨询转化率统计</p>
+                                               
+                                                
+</p>
+                                                <div class="reviews_item_icon1 pull-right text-right">“</div>
+                                            </div>
+                                            <h6 class="text-white padding">- 招生数据-</h6>
+                                        </div>
+                                        <div class="item">
+                                            <div class="client-img">
+                                                <img class="img-circle" src="assets/images/client-img-01.jpg" alt="" />
+                                            </div>
+                                            <div class="client-test-content">
+                                                <div class="reviews_item_icon pull-left text-left">“</div>
+                                                <p class="m-top-30 text-muted">学生上课考勤统计，学生评价统计，课时消耗统计，班级考勤统计。
+</p>
+                                              <div class="reviews_item_icon1 pull-right text-right">“</div>
+                                            </div>
+                                            <h6 class="text-white">-教务数据-</h6>
+                                        </div>
+                                        <div class="item">
+                                            <div class="client-img">
+                                                <img class="img-circle" src="assets/images/client-img-01.jpg" alt="" />
+                                            </div>
+                                            <div class="client-test-content">
+                                                <div class="reviews_item_icon pull-left text-left">“</div>
+                                                <p class="m-top-30 text-muted">学生收费，学生欠费、学生退费统计；
+                                                课程收入统计、老师课酬统计； 
+                                                学生学费核销实时统计，活动支出机日常支出项统计。
+                                                </p>
+                                                <div class="reviews_item_icon1 pull-right text-right">“</div>
+                                            </div>
+                                            <h6 class="text-white">-财务数据-</h6>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End off row -->
+                </div><!-- End off container -->
+            </section><!-- End off clients section -->
+
+
