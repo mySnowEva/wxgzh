@@ -90,7 +90,8 @@ p {
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
+	opacity: 1;
 }
 textarea,
 input[type="text"],
@@ -147,7 +148,9 @@ h4 {
     font-size: 24px;
 }
 h5 {
-    font-size:18px;
+	font-size: 20px;
+	line-height: 25px;
+	padding-bottom: 0px;
 }
 h6 {
     font-size: 1rem;
@@ -194,8 +197,8 @@ Section
 	padding-bottom: 60px;
 }
 .sections2 {
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 .sections3 {
     padding-top:80px;
@@ -512,13 +515,16 @@ Extra height css
     margin-top: 20px;
 }
 .m-top-30 {
-	margin-top: 15px;
+	margin-top: 25px;
+	line-height: 25px;
+	margin-bottom: 5px;
+	font-size: 20px;
 }
 .m-top-35 {
     margin-top: 35px;
 }
 .m-top-40 {
-	margin-top: 25px;
+	margin-top: 80px;
 }
 .m-top-50 {
     margin-top: 50px;
@@ -762,15 +768,16 @@ textarea::-ms-input-placeholder{
 	font-weight: 400;
 	font-size: 40px;
 	margin-bottom: 0px;
-	padding-top: 30px;
+	padding-top: 50px;
 	margin-left: 20px;
 }
 .head-title p{
-    font-weight: 400;
-    font-size:16px;
-    padding-left: 25px;
-    padding-right: 25px;
-
+	font-weight: 400;
+	font-size: 20px;
+	margin-right: 15%;
+	margin-left: 15%;
+	text-align: center;
+	line-height: 25px;
 }
 .culmn{
     width:100%;
@@ -997,9 +1004,11 @@ nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu{
     font-size:3rem;
 }
 .service-item h5{
+	font-size: 30px;
+	margin-top: 67px;
 }
 .service-item p{
-    font-size:15px;
+	font-size: 20px;
 }
 
 
@@ -1080,14 +1089,16 @@ LocalSeo Section style
 .main-allies .allies-img{}
 .main-allies .allies-content{}
 .main-allies .allies-content ul{
-    margin-left:30px;
+	margin-left: 30px;
+	margin-top: 0px;
 }
 .main-allies .allies-content ul li{
-    margin-top: 30px;
+	margin-top: 10px;
 }
 .main-allies .allies-content ul li i{
-    margin-right: 10px;
-    color:#00B063;
+	margin-right: 10px;
+	color: #00B063;
+	line-height: 10px;
 }
 
 
@@ -1145,7 +1156,7 @@ LocalSeo Section style
 
 .pricing-item {
 	width: 100%;
-	height: 400px;
+	height: 300px;
 	border-radius: 6px;
 	padding-top: 60px;
 	padding-right: 0px;
@@ -1175,7 +1186,9 @@ LocalSeo Section style
     margin-left:-35px;
 }
 .pricing-item .pricing-title{}
-.pricing-item .pricing-title h4{}
+.pricing-item .pricing-title h4{
+	font-size: 25px;
+}
 .pricing-item .pricing-body{}
 .pricing-item .pricing-body li{
     font-size:15px;
@@ -1232,7 +1245,7 @@ case studies section
 }
 
 .main-studies .studies-item:hover .studies-feature .studies-overlay{
-    opacity: 1;
+	opacity: 0.7;
 }
 .main-studies .studies-item .studies-conten p,
 .main-studies .studies-item .studies-conten h4 a{
@@ -1754,8 +1767,9 @@ weidget item
 
 .footerv1{
 	position: relative;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	margin-bottom: 0px;
 }
 .scrollup{
 	position: absolute;
@@ -1788,7 +1802,8 @@ weidget item
 	padding-bottom: 15px;
 }
 .main-footer .copyright-text p{
-    color:#628baa;
+	color: #628baa;
+	padding-top: 0px;
 }
 .main-footer .copyright-text span.fa{
     color:#4bcc88;
@@ -3893,7 +3908,7 @@ Contacts us page
                             </div>
 
 
-            <!--Clients section-->
+            Clients section
             <section id="clients" class="clients">
                 <div class="transit-01">
                     <img src="assets/images/support-img-01.png" alt="" />
@@ -3914,14 +3929,14 @@ Contacts us page
                             <div class="client-testimonial text-center m-top-100">
 
                                 <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
-                                    <!-- Indicators -->
+                                     Indicators 
                                     <ol class="carousel-indicators">
                                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                                     </ol>
 
-                                    <!-- Wrapper for slides -->
+                                     Wrapper for slides 
                                     <div class="carousel-inner" role="listbox">
                                         <div class="item active">
                                             <div class="client-img">
@@ -3969,8 +3984,6 @@ Contacts us page
                                 </div>
                             </div>
                         </div>
-                    </div><!-- End off row -->
-                </div><!-- End off container -->
-            </section><!-- End off clients section -->
-
-
+                    </div> End off row 
+                </div> End off container 
+            </section> End off clients section 
