@@ -32,8 +32,7 @@ jQuery( document ).ready( function ( $ ) {
      * home v1 slider
      =============================================*/
 
-    $( '#bootstrap-touch-slider' ).bsTouchSlider();
-
+   
 
     /*=============================================*
      * WOW
@@ -107,7 +106,6 @@ jQuery( document ).ready( function ( $ ) {
 
     jQuery( '.border' ).parent( 'div' ).addClass( 'parent-border' );
 
-    jQuery( '#newsletter-form' ).formchimp( { 'buttonText': 'Thanks' } );
 
 
 

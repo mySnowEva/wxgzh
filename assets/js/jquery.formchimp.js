@@ -15,7 +15,6 @@
 
         var $form = $(this);
         var $body = $('body');
-        var actionUrl = $form.attr('action').replace('/post?', '/post-json?').concat('&c=?');
         var $button = $form.find('[type="submit"]');
         var defaults = {
             'appendElement': $form, // Declare where the new element, containing the messages from Mailchimp will be appended to.
@@ -27,32 +26,6 @@
             'onMailChimpError': function () {}, // Callback that fires on errors.
             'responseClass': "mc-response", // Declare custom element in page for message output. (Set different classes for multiple sign-up forms)
             'successMessage': '', // Set a custom success message.
-            'url': actionUrl, // The mailchip list subscription url, to get the JSONP address just change `post` to `post-json` and append `&c=?` at the end.
-        };
-        var originalButtonText = defaults.buttonSelector.text();
-
-        // Merge default whith settings
-        $.extend(defaults, settings);
-
-        // On submit
-        $($form).on('submit', function (event) {
-
-            // Disable default action of submit
-            event.preventDefault();
-
-            // Remove status class and add the loading
-            $body.removeClass('mc-success mc-error').addClass('mc-loading');
-
-            // If the response container does not exists
-            if ($("." + defaults.responseClass).length === 0) {
-
-                // Add response container to append element
-                $responseContainer = $('<div/>').addClass(defaults.responseClass).appendTo(defaults.appendElement);
-
-            } else {
-
-                // Remove old message
-                $responseContainer.html('');
 
             }
 
@@ -140,8 +113,6 @@
                 $responseContainer.html(responseMessage);
 
             });
-
-        });
 
     };
 
