@@ -3619,9 +3619,7 @@ Pricing Table Page
 
 
 /*sidebar*/
-.sidebar{
-	margin-top: 145px;
-}
+.sidebar{}
 .sidebar-item p,
 .sidebar-item p a,
 .sidebar-item a,
