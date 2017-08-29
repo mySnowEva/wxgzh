@@ -324,10 +324,10 @@ Author URI: http://www.xpeedstudio.com
         display: none;
     }
     .home-one .bs-slider .item .container {
-        padding-top: 50px;
+        padding-top: 120px;
     }
     .homev1 .bs-slider .item  {
-        padding-top: 70px
+        padding-top: 0px
     }
     .homev1 .carousel-indicators .indicatior-item{
         display: none;

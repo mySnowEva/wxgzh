@@ -95,6 +95,8 @@ img {
 	opacity: 1;
 	padding-right: 0px;
 	display: block;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 textarea,
 input[type="text"],
@@ -139,12 +141,17 @@ h6 {
 }
 
 h1 {
-    font-size: 60px;
-    line-height: 5rem;
+	font-size: 45px;
+	line-height: 5rem;
+	font-weight: bolder;
 }
 h2 {
-    font-size:40px;
-    line-height: 3rem;
+	line-height: 3rem;
+	font-size: 250%;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-weight: bolder;
+	width: 100%;
+	height: 100%;
 }
 h3 {}
 h4 {
@@ -163,15 +170,26 @@ h6 {
 }
 
 p {
-    line-height: 1.5rem;
+	line-height: 1.5rem;
+	font-size: 150%;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-weight: bolder;
 }
 p:last-child {
 	margin-bottom: 0px;
+	font-size: 115%;
+	position: relative;
+}
+.single-team.sm-m-top-40 .team-description.m-top-20 .m-top-10.text-blacks {
 }
 /*colors*/
 .bg-light {background-color: #f9f9f9;}
 .bg-primary {background-color: #13A0B2;}
-.bg-grey {background-color: #ededed;}
+.bg-grey {
+	background-color: #ededed;
+	padding-top: 35px;
+	padding-bottom: 60px;
+}
 .bg-black {
 	background-color: #FFFFFF;
 }
@@ -184,10 +202,17 @@ p:last-child {
 .text-black{
 	color: #0e3655;
 	text-align: left;
+	font-weight: normal;
+	line-height: 30px;
 }
 .text-white{
 	color: #fff;
-	margin-top: 20px;		
+	margin-top: 20px;
+	width: 100%;
+	height: 100%;
+	text-indent: 0px;
+	text-shadow: 2px 2px 1px #000000;
+	position: relative;
 }
 .text-white1{color:#fff ;}
 .text-mega{color:#363636;}
@@ -204,6 +229,7 @@ Section
 .sections {
 	padding-top: 0px;
 	padding-bottom: 170px;
+	margin-bottom: -100px;
 }
 .sections2 {
 	padding-top: 66px;
@@ -375,7 +401,9 @@ ul{
 .btn.btn-primary:focus,
 .btn.btn-primary:active,
 .btn.btn-primary:hover {
-    background-color: #4BCC88;
+	background-color: #41A3DB;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
 }
 
 /*btn-default*/
@@ -515,13 +543,17 @@ Extra height css
     margin-left: 20px; 
 }
 .m-top-10 {
-    margin-top: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+	font-weight: normal;
 }
 .m-top-15 {
     margin-top: 15px;
 }
 .m-top-20 {
-    margin-top: 20px;
+	margin-top: 20px;
+	line-height: 30px;
+	font-weight: normal;
 }
 .m-top-30 {
 	margin-top: -5px;
@@ -783,10 +815,11 @@ textarea::-ms-input-placeholder{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	margin-top: 18px;
 }
 .head-title p{
-	font-weight: 400;
-	font-size: 20px;
+	font-weight: bolder;
+	/* [disabled]font-size: 23px; */
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -1104,6 +1137,7 @@ LocalSeo Section style
 .allies{
 	padding-top: 60px;
 	background-color: rgba(237,237,237,1.00);
+	padding-bottom: 60px;
 }
 .allies1{
 	padding-top: 40px;
@@ -1111,7 +1145,8 @@ LocalSeo Section style
 }
 .main-allies{}
 .main-allies .allies-img{}
-.main-allies .allies-content{}
+.main-allies .allies-content{
+}
 .main-allies .allies-content ul{
 	margin-left: 30px;
 	margin-top: 0px;
@@ -1135,8 +1170,9 @@ LocalSeo Section style
     /*color:#fff;*/
 }
 .leading-content .head-title p{
-	font-size: 20px;
+	font-size: 28px;
 	text-align: left;
+	line-height: 42px;
 }
 
 /*=====================================
@@ -1684,8 +1720,10 @@ newsletterv1 section
 weidget item
 ==========================*/
 .main-weidgetv1{
-    width:100%;
-    overflow: hidden;
+	width: 100%;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
 }
 .weidgetv1-item p{
     color:#0e3655;
@@ -1733,17 +1771,17 @@ weidget item
     font-size: 1.5rem;
 }
 .weidgetv1-item .service li{
-    line-height: 2rem;
-    margin-bottom: 5px;
+	line-height: 2rem;
+	margin-bottom: 5px;
 }
 .weidgetv1-item .service li a{
-    font-size:15px;
-    color:#0e3655;
-    font-weight: 400;
-    font-family: 'Heebo', sans-serif;
+	color: #0e3655;
+	font-weight: 400;
+	font-family: 'Heebo', sans-serif;
+	font-size: 20px;
 }
 .weidgetv1-item .service li:hover a{
-    color:#4bcc88;
+	color: #4bcc88;
 }
 .weidgetv1-item .service li a span{
     margin-right: 10px;
@@ -1839,6 +1877,7 @@ weidget item
 .main-footer .copyright-text p{
 	color: #628baa;
 	padding-top: 0px;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
 }
 .main-footer .copyright-text span.fa{
     color:#4bcc88;
@@ -3131,8 +3170,9 @@ Banner section
         experience area
 ===============================*/
 .experience-area{
-    background-color: #4BCC88;
-    position: relative;
+	background-color: #4BCC88;
+	position: relative;
+	margin-top: 0px;
 }
 /*.experience-area:before{
     background-color: #fff;
@@ -3227,10 +3267,12 @@ Banner section
 
 
 /*Team section*/ 
-.team-area{}
+.team-area{
+	margin-bottom: -100px;
+}
 .main-team{
-    width:100%;
-    overflow: hidden;
+	width: 100%;
+	overflow: hidden;
 }
 
 .single-team{}
@@ -3487,7 +3529,9 @@ Pricing Table Page
         Blog page
 ==========================================*/
 
-.blog-page {}
+.blog-page {
+	height: 400px;
+}
 .main-blog-area {}
 .blog-feature {
     position: relative;
@@ -3629,8 +3673,8 @@ Pricing Table Page
 }
 
 .sidebar-item.search-post .input-group{
-    position: relative;
-    width:100%;
+	position: relative;
+	width: 100%;
 }
 .sidebar-item.search-post .input-group .form-control{
     padding: 22px;
@@ -3675,8 +3719,9 @@ Pricing Table Page
 
 .sidebar-item.recent-comments p,
 .sidebar-item.articles p{
-    border-bottom:1px solid #EBEBEB;
-    padding-bottom:20px;
+	border-bottom: 1px solid #EBEBEB;
+	padding-bottom: 20px;
+	font-size: 20px;
 }
 
 .sidebar-item.recent-comments p a span.icon,
