@@ -229,7 +229,7 @@ Section
 .sections {
 	padding-top: 0px;
 	padding-bottom: 170px;
-	margin-bottom: -100px;
+	margin-bottom: 0px;
 }
 .sections2 {
 	padding-top: 66px;
